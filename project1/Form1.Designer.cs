@@ -346,7 +346,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -362,6 +361,7 @@
             this.Controls.Add(this.pictureBox4_MouseRight);
             this.Controls.Add(this.pictureBox3_MouseMid);
             this.Controls.Add(this.pictureBox2_MouseLeft);
+            this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
