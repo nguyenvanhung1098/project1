@@ -52,18 +52,11 @@
             this.propertyGrid5 = new System.Windows.Forms.PropertyGrid();
             this.propertyGrid6 = new System.Windows.Forms.PropertyGrid();
             this.propertyGrid7 = new System.Windows.Forms.PropertyGrid();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mssv20161972ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ngàySinh19101998ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.trườngĐạiHọcBáchKhoaHàNộiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1_Mouse)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2_MouseLeft)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3_MouseMid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4_MouseRight)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1_Mouse
@@ -295,58 +288,12 @@
             this.propertyGrid7.Size = new System.Drawing.Size(214, 436);
             this.propertyGrid7.TabIndex = 15;
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aboutUsToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 16;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // aboutUsToolStripMenuItem
-            // 
-            this.aboutUsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.hoToolStripMenuItem,
-            this.mssv20161972ToolStripMenuItem,
-            this.ngàySinh19101998ToolStripMenuItem,
-            this.trườngĐạiHọcBáchKhoaHàNộiToolStripMenuItem});
-            this.aboutUsToolStripMenuItem.Name = "aboutUsToolStripMenuItem";
-            this.aboutUsToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.aboutUsToolStripMenuItem.Text = "AboutUs";
-            // 
-            // hoToolStripMenuItem
-            // 
-            this.hoToolStripMenuItem.Name = "hoToolStripMenuItem";
-            this.hoToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
-            this.hoToolStripMenuItem.Text = "Họ và tên: Nguyễn Văn Hùng";
-            // 
-            // mssv20161972ToolStripMenuItem
-            // 
-            this.mssv20161972ToolStripMenuItem.Name = "mssv20161972ToolStripMenuItem";
-            this.mssv20161972ToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
-            this.mssv20161972ToolStripMenuItem.Text = "Mssv; 20161972";
-            // 
-            // ngàySinh19101998ToolStripMenuItem
-            // 
-            this.ngàySinh19101998ToolStripMenuItem.Name = "ngàySinh19101998ToolStripMenuItem";
-            this.ngàySinh19101998ToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
-            this.ngàySinh19101998ToolStripMenuItem.Text = "Ngày sinh; 19/10/1998";
-            // 
-            // trườngĐạiHọcBáchKhoaHàNộiToolStripMenuItem
-            // 
-            this.trườngĐạiHọcBáchKhoaHàNộiToolStripMenuItem.Name = "trườngĐạiHọcBáchKhoaHàNộiToolStripMenuItem";
-            this.trườngĐạiHọcBáchKhoaHàNộiToolStripMenuItem.Size = new System.Drawing.Size(257, 22);
-            this.trườngĐạiHọcBáchKhoaHàNộiToolStripMenuItem.Text = "Trường: Đại học Bách Khoa Hà Nội";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -362,7 +309,6 @@
             this.Controls.Add(this.pictureBox4_MouseRight);
             this.Controls.Add(this.pictureBox3_MouseMid);
             this.Controls.Add(this.pictureBox2_MouseLeft);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -376,8 +322,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3_MouseMid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4_MouseRight)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -408,12 +352,6 @@
         private System.Windows.Forms.PropertyGrid propertyGrid4;
         private System.Windows.Forms.PropertyGrid propertyGrid3;
         private System.Windows.Forms.PropertyGrid propertyGrid2;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem aboutUsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mssv20161972ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ngàySinh19101998ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem trườngĐạiHọcBáchKhoaHàNộiToolStripMenuItem;
     }
 }
 
