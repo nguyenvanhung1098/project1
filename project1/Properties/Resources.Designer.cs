@@ -99,5 +99,23 @@ namespace project1.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 3.4.
+        /// </summary>
+        internal static string PhienBan {
+            get {
+                return ResourceManager.GetString("PhienBan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chuột ảo.
+        /// </summary>
+        internal static string TenPhienBan {
+            get {
+                return ResourceManager.GetString("TenPhienBan", resourceCulture);
+            }
+        }
     }
 }
