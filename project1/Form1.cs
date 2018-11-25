@@ -25,10 +25,10 @@ namespace project1
             propertyGrid7.Visible = false;
             button2.Visible = false;
         }
-
+        // đổi tên Form1 thành Chuột ảo 3.4 khi chạy chương trình
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            Text = Properties.Resources.TenPhienBan + " " + Properties.Resources.PhienBan;
         }
 
         private void pictureBox1_Mouse_MouseClick(object sender, MouseEventArgs e)
